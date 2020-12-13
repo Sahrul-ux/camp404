@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri</title>
+</head>
+<body>
+    <form action="file_aksi.php" method="post">
+
+            <label>Nama Lengkap: <input type="text" name="namaPengguna" value="">
+            </label>
+        <br><br>
+
+            <label>Tanggal Lahir :</label>
+            <input type="date" name="tgllahir">
+        <br><br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jeniskel" value="Laki-Laki">
+        <label for="jeniskel">Laki-Laki</label>
+        <input type="radio" name="jeniskel" value="perempuan">
+        <label for="jeniskel">Perempuan</label>
+        <br><br>
+
+        <label>Hobi :</label>
+        <br><br>
+        <input type="checkbox" name="hobi" value="membaca">
+        <label>Suka Membaca</label>
+        <br><br>
+        <input type="checkbox" name="hobi" value="olahraga">
+        <label>Suka olahraga</label>
+        <br><br>
+        <input type="checkbox" name="hobi" value="traveling">
+        <label>Suka Jalan-Jalan</label>
+        <br><br>
+
+        <label>Negara :</label>
+        <select name="asalnegara" size="1">
+            <option value="id">Indonesia</option>
+            <option value="my">Malaysia</option>
+            <option value="sg">Singapura</option>
+            <option value="th">Thailand</option>
+        </select>
+        <br><br>
+
+        <label>Alamat Lengkap :</label>
+        <textarea name="alamatlkp" rows="5" cols="50"></textarea>
+        <br><br>
+
+        <label>Arsip/File terbaru</label>
+        <input type="file" name="cv">
+        <br><br>
+
+        <input type=submit value="Kirim">
+    </form>
+    
+</body>
+</html>

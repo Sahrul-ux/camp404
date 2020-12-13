@@ -1,0 +1,15 @@
+li a {
+    font-family: "Open Sans";
+    color: brown;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+#logo {
+    font-family: "Castellar";
+    color: crimson;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
